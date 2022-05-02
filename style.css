@@ -13,8 +13,8 @@ section{
   justify-content: center;
   align-items: center;
   padding-top: 3rem;
-  /* background-image: url(/images/bg-intro-mobile.png); */
-  /* background-size: cover; */
+  background-image: url(/images/bg-intro-mobile.png);
+  background-size: cover;
   background-color: hsl(0, 100%, 74%);
 }
 
@@ -62,7 +62,7 @@ h1{
 .form{
   margin-top: 1rem;
   background-color: white;
-  width: 94%;
+  width: 90%;
   border-radius: 8px;
   border: none;
   margin-bottom: 2rem;
@@ -74,11 +74,12 @@ h1{
   /* padding-bottom: 2rem; */
 }
 input{
-  margin: 0.5rem 1rem;
+  margin: 0.5rem;
   padding: 1rem 1.4rem;
   padding-right: 30px;
   border-radius: 5px;
   border: 1px solid hsl(246, 25%, 77%);
+  width: 94%;
 }
 .btn2{
   margin: auto;
@@ -87,6 +88,7 @@ input{
   text-align: center;
 }
 .btn2 button{
+  width: 94%;
   background-color: hsl(248, 32%, 49%);
   padding: 0.9rem 1.8rem;
   background-color: hsl(154, 59%, 51%);
@@ -103,6 +105,9 @@ input{
   margin: 0 auto;
   width: 80%;
   text-align: center;
+  line-height: 1.5;
+  padding-top: 5px;
+  padding-bottom: 1rem;
 }
 span{
   color: hsl(0, 100%, 74%) ;
