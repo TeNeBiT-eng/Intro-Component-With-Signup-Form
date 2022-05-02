@@ -40,7 +40,34 @@ h1{
   text-align: center;
   line-height: 1.5;
   color: white;
+  /* margin-right: 3.2rem; */
 }
+
+
+.glow {
+  font-size: 3.55rem;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 3s ease-in-out infinite alternate;
+  -moz-animation: glow 3s ease-in-out infinite alternate;
+  animation: glow 1.5s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #131312, 0 0 50px #602f47, 0 0 60px #e60073, 0 0 70px #e60049d2;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+
+
+
+
+
+
 
 .section_2{
   width: 94%;
@@ -63,7 +90,7 @@ h1{
 }
 
 .btn1 :hover {
-  animation: shake 5s;
+  animation: shake 3s;
   animation-iteration-count: infinite;
   cursor: pointer;
 }
@@ -78,7 +105,7 @@ h1{
   70% { transform: translate(3px, 1px) rotate(-1deg); }
   80% { transform: translate(-1px, -1px) rotate(1deg); }
   90% { transform: translate(1px, 2px) rotate(0deg); }
-  100% { transform: translate(1px, -2px) rotate(360deg); }
+  100% { transform: translate(1px, -2px) rotate(0deg); }
 }
 
 .form{
@@ -93,7 +120,7 @@ h1{
 }
 .formContainer{
   padding-top: 0.8rem;
-  padding-left: 2rem;
+  /* padding-left: 2rem; */
   /* padding-bottom: 2rem; */
 }
 input{
@@ -103,10 +130,15 @@ input{
   border-radius: 5px;
   border: 1px solid hsl(246, 25%, 77%);
   width: 94%;
-  transition: .3s;
+  transition: .2s;
 }
 input:hover{
-  transform: scale(1.1);
+  transform: scale(1.015);
+}
+::placeholder{
+  color: hsl(249, 10%, 26%);
+  opacity: 1;
+  font-weight: 600;
 }
 .btn2{
   margin: auto;
@@ -124,6 +156,11 @@ input:hover{
   border: none;
   line-height: 1.5;
   box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.068);
+  transition: .5s;
+}
+.btn2 button:hover{
+  transform: scale(.94);
+  cursor: pointer;
 }
 
 .form p{
@@ -150,8 +187,8 @@ span{
 
 
 @media (min-width: 768px) {
-  .section_1{
-   
+  .mother_container{
+    margin-bottom: 3rem;
   }
   h1{
     font-size: 3rem;
@@ -171,5 +208,23 @@ span{
   }
    button{
     width: 100%;
+  }
+}
+
+
+@media (min-width:1257px) {
+  .section_1_text{
+    margin-left: 95px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .section_1_text{
+    margin-left: 133px;
+  }
+}
+@media (min-width: 2560px) {
+  .section_1_text{
+    margin-left: 185px;
   }
 }
