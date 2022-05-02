@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 3rem;
+  /* background-image: url(/images/bg-intro-mobile.png); */
+  /* background-size: cover; */
+  background-color: hsl(0, 100%, 74%);
+}
+
+.mother_container{
+  
+}
+
+.section_1{
+  width: 94%;
+  margin: 0 auto;
+}
+h1{
+  color: white;
+  font-size: 1.6rem;
+  text-align: center;
+  padding: 1.5rem;
+}
+.section_1_text{
+  margin: auto;
+  width: 90%;
+  text-align: center;
+  line-height: 1.5;
+  color: white;
+}
+
+.section_2{
+  width: 94%;
+  margin: auto;
+}
+.btn1{
+  margin: auto;
+  width: 90%;
+  margin-top: 3.4rem;
+  text-align: center;
+}
+.btn1 button{
+  background-color: hsl(248, 32%, 49%);
+  padding: 0.9rem 3rem;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  line-height: 1.5;
+  box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.068);
+}
+.form{
+  margin-top: 1rem;
+  background-color: white;
+  width: 94%;
+  border-radius: 8px;
+  border: none;
+  margin-bottom: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.formContainer{
+  padding-top: 0.8rem;
+  /* padding-bottom: 2rem; */
+}
+input{
+  margin: 0.5rem 1rem;
+  padding: 1rem 1.4rem;
+  padding-right: 30px;
+  border-radius: 5px;
+  border: 1px solid hsl(246, 25%, 77%);
+}
+.btn2{
+  margin: auto;
+  width: 90%;
+  margin-top: .4rem;
+  text-align: center;
+}
+.btn2 button{
+  background-color: hsl(248, 32%, 49%);
+  padding: 0.9rem 1.8rem;
+  background-color: hsl(154, 59%, 51%);
+  color: white;
+  border-radius: 5px;
+  border: none;
+  line-height: 1.5;
+  box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.068);
+}
+
+.form p{
+  color: hsl(246, 25%, 77%);
+  font-size: 0.8rem;
+  margin: 0 auto;
+  width: 80%;
+  text-align: center;
+}
+span{
+  color: hsl(0, 100%, 74%) ;
+  font-size: 0.8rem;
+}
