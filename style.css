@@ -53,7 +53,7 @@ h1{
   animation: glow 1.5s ease-in-out infinite alternate;
 }
 
-@-webkit-keyframes glow {
+@keyframes glow {
   from {
     text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #131312, 0 0 50px #602f47, 0 0 60px #e60073, 0 0 70px #e60049d2;
   }
@@ -62,12 +62,6 @@ h1{
     text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
   }
 }
-
-
-
-
-
-
 
 .section_2{
   width: 94%;
@@ -130,7 +124,7 @@ input{
   border-radius: 5px;
   border: 1px solid hsl(246, 25%, 77%);
   width: 94%;
-  transition: .2s;
+  transition: .1s;
 }
 input:hover{
   transform: scale(1.015);
